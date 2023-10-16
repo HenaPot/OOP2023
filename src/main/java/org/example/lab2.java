@@ -1,10 +1,12 @@
 package org.example;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class lab2 {
     public static void main(String[] args){
         // each method should be called here to show their functionality
+        gameTask10();
     }
 
     /* Create a program that asks the user for a password.
@@ -130,6 +132,35 @@ public class lab2 {
                 System.out.print(i + " ");
             }
             System.out.println();
+        }
+    }
+
+    public static void gameTask10(){
+        Random random = new Random();
+        Scanner reader = new Scanner(System.in);
+
+        // random.nextInt includes 0 but excludes the bound
+        int guess = random.nextInt(101);
+        System.out.println(guess);
+
+        System.out.println("Guess a number: ");
+        int userGuess = reader.nextInt();
+        int counter = 1;
+        while (true) {
+            if (userGuess > guess) {
+                System.out.println("The number is lesser, guesses made: " + counter);
+                counter++;
+                System.out.println("Guess a number: ");
+                userGuess = reader.nextInt();
+            } else if (userGuess < guess) {
+                System.out.println("The number is greater, guesses made: " + counter);
+                counter++;
+                System.out.println("Guess a number: ");
+                userGuess = reader.nextInt();
+            } else {
+                System.out.println("Congratulations, your guess is correct!");
+                break;
+            }
         }
     }
 }
