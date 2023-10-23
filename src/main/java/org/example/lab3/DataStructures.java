@@ -1,12 +1,16 @@
-package org.example;
+package org.example.lab3;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-//import org.example.TaskItem;
+//import org.example.lab3.TaskItem;
 
 public class DataStructures {
     public static void main(String[] args){
-
+            DataStructures ds = new DataStructures();
+            for (TaskItem t : ds.getTasks()){
+                System.out.println(t.getTaskDescription());
+            }
     }
     private List<TaskItem> tasks = new ArrayList<>();
 

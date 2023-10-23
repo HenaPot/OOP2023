@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab3;
 
 import java.sql.*;
 
@@ -11,7 +11,7 @@ public class DbConnect {
     }
     private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "sorry im not giving you my password uwu";
+    private static final String PASSWORD = "sorry i'm not giving you my password uwu";
 
 
     private Connection connection = null;
