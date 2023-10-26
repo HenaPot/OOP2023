@@ -7,10 +7,10 @@ import java.util.Arrays;
 
 public class DataStructures {
     public static void main(String[] args){
-            DataStructures ds = new DataStructures();
-            for (TaskItem t : ds.getTasks()){
-                System.out.println(t.getTaskDescription());
-            }
+        DataStructures ds = new DataStructures();
+        for (TaskItem t : ds.getTasks()){
+            System.out.println(t.getTaskDescription());
+        }
     }
     private List<TaskItem> tasks = new ArrayList<>();
 
@@ -50,6 +50,3 @@ public class DataStructures {
                     System.out.println(task.taskDescription);});
     }
 }
-
-
-
