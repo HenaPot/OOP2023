@@ -54,7 +54,7 @@ public class Main {
         //this will change our attribute grades and add 9.5 to it despite working with variable in main
         //POINTS TO MEMORY LOCATION
         henasGrades.add(9.5);
-        hena.addGrade(6.0);
+        hena.addGrade(6.1);
         System.out.println(hena.getGrades());
         System.out.println(henasGrades);
 
