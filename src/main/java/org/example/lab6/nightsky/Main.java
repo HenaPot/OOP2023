@@ -1,4 +1,4 @@
-package org.example.lab6.task7;
+package org.example.lab6.nightsky;
 
 public class Main {
     public static void main(String[] args){

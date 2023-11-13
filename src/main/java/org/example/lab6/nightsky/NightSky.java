@@ -1,4 +1,4 @@
-package org.example.lab6.task7;
+package org.example.lab6.nightsky;
 import java.util.Random;
 public class NightSky {
     private double density;
