@@ -84,7 +84,7 @@ class OneThingBox extends Box{
     @Override
     public void add(Thing thing) {
         if (this.numOfItems == 0){
-            // radi i sa this i bez this ?
+            // radi i sa this i bez this
             this.box.add(thing);
             this.numOfItems = 1;
         }

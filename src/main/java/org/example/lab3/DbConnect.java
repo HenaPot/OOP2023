@@ -13,7 +13,6 @@ public class DbConnect {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "sorry i'm not giving you my password uwu";
 
-
     private Connection connection = null;
 
     public DbConnect() {
